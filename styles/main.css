@@ -65,9 +65,10 @@ html, body {
     margin-top: -5rem;
     padding-top: 5rem;
 }
-
+#carouselExampleIndicators{
+}
 section {
-    margin-top: 9rem;
+    margin-top: 1rem;
 }
 
 section h2 {
