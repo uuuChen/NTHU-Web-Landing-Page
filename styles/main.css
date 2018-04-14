@@ -65,8 +65,7 @@ html, body {
     margin-top: -5rem;
     padding-top: 5rem;
 }
-#carouselExampleIndicators{
-}
+
 section {
     margin-top: 1rem;
 }
@@ -90,9 +89,15 @@ section h2 {
   /* color: rgb(16, 114, 172); */
 }
 .card {
+    /* border-color: black; */
     margin-top: 1rem;
 }
+.card-title{
 
+}
+.card-block{
+  /* background-color: rgba(253, 179, 51, 0.8); */
+}
 .rotate-20 {
     -ms-transform: rotate(20deg);
     /* IE 9 */
@@ -128,9 +133,20 @@ footer {
     padding: 4rem;
     color: gray;
 }
+.carousel-item{
 
+  margin: 0rem 0rem;
+}
 .container-fluid{
   /* background-color: rgba(208, 77, 16, 0.8); */
   background-color: rgba(253, 179, 51, 0.8);
   padding-bottom: 4rem;
 }
+.footer-contact_us{
+    /* color:#cc00ff; */
+    margin-bottom: 4rem;
+  }
+  .footer-about{
+    /* color:#cc00ff; */
+    margin-top:4rem;
+  }
