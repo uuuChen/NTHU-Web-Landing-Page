@@ -10,6 +10,10 @@
       gtag('js', new Date());
 
       gtag('config', 'UA-117518649-1');
+      ga('create', 'UA-XXXXXXX-X', 'auto');
+      ga('require', 'linkid', 'linkid.js');  //加強連結歸屬標記
+      ga('require', 'displayfeatures');  //客層和興趣報表標記
+
     </script>
 
     <meta charset="UTF-8">
@@ -69,7 +73,7 @@
                 </div>
                 <br>
                 <a class="btn btn-lg clickButton"
-                    onclick="ga(‘send’, ‘social’, ‘事件目錄’, ‘事件動作’, ‘事件標籤’);"
+                    onclick="ga('send', 'event', 'category', 'action', 'label', value);"
                     target="_blank" href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2F1N6YQoOjCMPMpu0V2c4juvYedi6XglJmUwAoFeWQYO7Y%2Fedit&h=ATOoAQtFdW251nebwBCZuCAfcp2Nd_klNZDCSDUQ0_EnZ2loZT0k5oQS52T5hVNB1tDAudnpCM4bFh6KIOz5O01dOFwGaSyEnf990PH93jvtu_a_lLJYrw">
                 >&nbsp;&nbsp;Get Notified When Available</a>
                 <!--a class="btn btn-lg clickButton" href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2F1N6YQoOjCMPMpu0V2c4juvYedi6XglJmUwAoFeWQYO7Y%2Fedit&h=ATOoAQtFdW251nebwBCZuCAfcp2Nd_klNZDCSDUQ0_EnZ2loZT0k5oQS52T5hVNB1tDAudnpCM4bFh6KIOz5O01dOFwGaSyEnf990PH93jvtu_a_lLJYrw">&nbsp;&nbsp;Get Notified When Available</a-->
@@ -172,7 +176,7 @@
                     <p class='price-text'><span class='logo-first'>永久</span><span class="logo-last">免費</span></p>
                     <p style="color:white">Please help us improve by taking a 30sec survey. Your feedback is highly appreciated.</p>
                     <br>
-                    <a class="btn btn-lg clickButton" href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2F1N6YQoOjCMPMpu0V2c4juvYedi6XglJmUwAoFeWQYO7Y%2Fedit&h=ATOoAQtFdW251nebwBCZuCAfcp2Nd_klNZDCSDUQ0_EnZ2loZT0k5oQS52T5hVNB1tDAudnpCM4bFh6KIOz5O01dOFwGaSyEnf990PH93jvtu_a_lLJYrw" ><i class="fa fa-thumbs-up" aria-hidden="true"></i>&nbsp;&nbsp;Ok, I'd Like to Help</a>
+                    <a class="btn btn-lg clickButton" onclick="ga('send', 'event', 'category', 'action', 'label', value);" href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2F1N6YQoOjCMPMpu0V2c4juvYedi6XglJmUwAoFeWQYO7Y%2Fedit&h=ATOoAQtFdW251nebwBCZuCAfcp2Nd_klNZDCSDUQ0_EnZ2loZT0k5oQS52T5hVNB1tDAudnpCM4bFh6KIOz5O01dOFwGaSyEnf990PH93jvtu_a_lLJYrw" ><i class="fa fa-thumbs-up" aria-hidden="true"></i>&nbsp;&nbsp;Ok, I'd Like to Help</a>
                 </section>
             </div>
         </div>
